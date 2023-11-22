@@ -42,5 +42,8 @@ Assuming all required files are in a single folder.
 
 `train.py` contains data preprocessing and model training, for data preprocessing details please see our paper.
 
+# Data availability
+The training and testing datasets were provided by the organisers of the Random Promoter DREAM Challenge 2022 can be downloaded from [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7395397.svg)](https://doi.org/10.5281/zenodo.7395397).
+
 # Acknowledgements
 We thank DREAM Challenges for organizing this competition, and Google Research for providing TPU resources to make training the model possible. We also acknowledge the support by the School of Computing and Mathematical Sciences, and the Birkbeck GTA programme.
