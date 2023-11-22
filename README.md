@@ -1,5 +1,5 @@
 # Introduction
-This repo contains the implementation of predicting gene expression levels of random promoter sequences by a large temporal convolutional networks-based language model, namely DNA-TCN. The implementaion provides data preprocessing, data loaders, model building and training. The character-level Temporal Convolutional Network (TCN) described in [((van den Oord et al. 2016)](https://doi.org/10.48550/arXiv.1609.03499) is adopted.
+This repo contains the implementation of predicting gene expression levels of random promoter sequences by a large temporal convolutional networks-based language model, namely DNA-TCN. The implementaion provides data preprocessing, data loaders, model building and training. The character-level Temporal Convolutional Network (TCN) described in [(van den Oord et al. 2016)](https://doi.org/10.48550/arXiv.1609.03499) is adopted.
 
 # Cite
 ```
