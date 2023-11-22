@@ -2,6 +2,15 @@
 This repo contains the implementation of predicting gene expression levels of random promoter sequences by a large temporal convolutional networks-based language model, namely DNA-TCN. The implementaion provides data preprocessing, data loaders, model building and training. The character-level Temporal Convolutional Network (TCN) described in [(Bai, Kolter, and
 Koltun 2018)](https://api.semanticscholar.org/CorpusID:4747877) is adopted.
 
+# Cite
+```
+@article{dna-tcn2023,
+  title={Predicting gene expression levels of random promoter sequences by a large temporal convolutional networks-based language model},
+  author={Alsaggaf, Ibrahim and Barton, Carl and Wan, Cen},
+  note={Submitted for publication to AAAI 2024: LLMs4Bio workshop, November 2023}
+}
+```
+
 # Usage
 The impelementation is customised to run on a TPU virtual machine (tpu-vm) with PyTorch/XLA, it was tested on a tpu-vm v2-8 with Pytorch version 1.11. To run this impelementation on GCP yon need to do the following steps:
 
@@ -31,7 +40,7 @@ Assuming all required files are in a single folder.
 
 `python3 train.py`
 
-`train.py` contains data preprocessing and model training, for data preprocessing details please see the report.
+`train.py` contains data preprocessing and model training, for data preprocessing details please see our paper.
 
 # Acknowledgements
 We thank DREAM Challenges for organizing this competition, and Google Research for providing TPU resources to make training the model possible. We also acknowledge the support by the School of Computing and Mathematical Sciences, and the Birkbeck GTA programme.
